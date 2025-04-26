@@ -1,12 +1,7 @@
 # Platform Test Generation 
 
 ## Deliverables
-
-### Annotated Codebase
 Manual test scripts for a Java platform application, integrated with symbolic execution via SPF.
-
-### Test Generation Concept
-Drafting an approach for test generation using AST analysis and JML-based contract parsing.
 
 ---
 
