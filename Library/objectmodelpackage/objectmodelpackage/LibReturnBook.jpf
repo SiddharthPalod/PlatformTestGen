@@ -1,0 +1,12 @@
+classpath=${jpf-symbc}/build/tests
+sourcepath=${jpf-symbc}/src/tests
+target=gov.nasa.jpf.symbc.LibReturnBook
+
+symbolic.method = gov.nasa.jpf.symbc.LibReturnBook.testReturnBook()
+symbolic.minint=-25
+symbolic.maxint=25
+symbolic.undefined=-100
+#listener = gov.nasa.jpf.symbc.SymbolicListener
+vm.storage.class=nil
+#symbolic.debug=true
+symbolic.string_dp=z3x
