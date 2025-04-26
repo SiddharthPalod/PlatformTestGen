@@ -67,3 +67,8 @@ Library/objectmodelpackage/LibReturnBook.java
 - Includes multiple assertions, branches, and symbolic inputs.
 - Models real-world edge cases for a library book return system.
 - Annotated and structured to maximize symbolic path exploration via SPF.
+
+## Contributors
+- Siddharth Palod (IMT2022002)
+- Aryan Vaghasiya (IMT2022046)
+- Areen Vaghasiya (IMT2022048)
