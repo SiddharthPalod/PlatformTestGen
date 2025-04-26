@@ -1,6 +1,7 @@
 # Platform Test Generation 
 
-## Deliverables
+
+## Codebase Deliverables
 Manual test scripts for a Java platform application, integrated with symbolic execution via SPF.
 
 ---
