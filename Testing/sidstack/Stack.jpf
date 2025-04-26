@@ -1,0 +1,19 @@
+target=sidstack.Stack
+
+# Specify symbolic methods for analysis
+symbolic.method=sidstack.Stack.sym, sidstack.Stack.push(int), sidstack.Stack.pop()
+
+# Enable lazy symbolic execution
+symbolic.lazy=true
+
+# Define classpath for JPF symbolic execution
+classpath=${jpf-symbc}/build/examples
+
+# Allow multiple error states during symbolic execution
+search.multiple_errors=true
+
+# Use the Z3 solver for symbolic execution
+symbolic.dp=z3
+
+# Enable symbolic array handling
+symbolic.arrays=true
