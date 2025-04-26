@@ -1,5 +1,8 @@
 # Platform Test Generation 
-
+We explore test case generation for platforms software. The emphasis is on
+the programming language specific aspects of this problem. We aim to imple-
+ment a Java based code generator for testing software, e.g., image processing,
+library, smart TV and gaming stations (e.g. Sony Play Station).
 
 ## Codebase Deliverables
 Manual test scripts for a Java platform application, integrated with symbolic execution via SPF.
